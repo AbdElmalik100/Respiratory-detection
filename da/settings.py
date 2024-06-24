@@ -28,7 +28,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
-CSRF_TRUSTED_ORIGINS = ['*']
+CSRF_TRUSTED_ORIGINS = ['https://respiratory-detection-production.up.railway.app']
 CORS_ALLOW_ALL_ORIGINS = True
 
 # Application definition
